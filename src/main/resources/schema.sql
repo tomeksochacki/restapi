@@ -1,0 +1,12 @@
+CREATE TABLE ORDERS (
+id BIGINT AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(400) NOT NULL,
+content VARCHAR(2000) NULL,
+created timestamp
+);
+
+CREATE TABLE INVOICE (
+id BIGINT AUTO_INCREMENT PRIMARY KEY,
+price double,
+created timestamp
+);
